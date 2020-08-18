@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+}
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+}
+.header nav ul{
+    width: 250px;
+    height: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    margin: 20px 0;
+}
+.header nav ul .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+}
+.header nav ul img{
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.header-item{
+    margin-right: 15px;
+    color: black;
+    /* border: 1px red solid; */
+}
+
+.navegador{
+    
+    margin: 170px 0;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+main .main-logo{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main .navegador-imagen{
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main .main-input-container{
+    width: 495px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.main-input-container input{
+    margin-left: 8px;
+    width: 430px;
+    height: 30px;
+    border: none;
+    outline: none; /* Nos sirve para quitar el borde cuando hacemos clic en un input */
+}
+main .main-input-container .search-icon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+main .main-input-container .micro-icon{
+    background-image: url('https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+main .main-buttons{
+    width: 600px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 35px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 20px;
+    padding: 0 18px;
+    margin: 0 10px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+
+.footer{
+    height: 50px;
+    width: 100%;
+    position: absolute; /* Con esto aseguramos que el footer siempre este en el final de la pagina */
+    bottom: 0; /* Con esto y la linea de arriba se asegura que el fotter permanezca abajo */
+    /* border: 1px green solid; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e2e2e2 ;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+.footer nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.footer nav ul li{
+    margin: 0px 20px;
+    color: #5f6368;
+}
